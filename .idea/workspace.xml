@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="122451f0-fb35-4e2b-80fd-5bb07740d04e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/index.html" afterDir="false" />
+    <list default="true" id="05f2298c-e980-4dfb-ac42-90e8e992d9b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,49 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/index.html">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -71,38 +32,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1610" />
-    <option name="y" value="212" />
-    <option name="width" value="1555" />
+    <option name="x" value="998" />
+    <option name="y" value="316" />
+    <option name="width" value="1468" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="paper-card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paper-card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paper-card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paper-card" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,25 +74,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="122451f0-fb35-4e2b-80fd-5bb07740d04e" name="Default Changelist" comment="" />
-      <created>1546279994734</created>
+      <changelist id="05f2298c-e980-4dfb-ac42-90e8e992d9b0" name="Default Changelist" comment="" />
+      <created>1546280918817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546279994734</updated>
-      <workItem from="1546279996111" duration="640000" />
+      <updated>1546280918817</updated>
+      <workItem from="1546280920022" duration="395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="640000" />
+    <option name="totallyTimeSpent" value="395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1610" y="212" width="1555" height="877" extended-state="0" />
+    <frame x="998" y="316" width="1468" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Version Control" />
@@ -167,49 +113,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#0;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#1;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#2;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#3;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#4;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#5;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#6;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#7;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#8;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#9;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#10;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#paper-card#11;n#sortable-list#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
