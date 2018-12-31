@@ -1,0 +1,318 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html lang="en">
+<head>
+  <title>paper-card demo</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2.0.0/webcomponents-loader.js"></script>
+  <script type="module">
+    import '@polymer/iron-demo-helpers/demo-snippet.js';
+    import '@polymer/iron-demo-helpers/demo-pages-shared-styles.js';
+
+    import '@polymer/iron-collapse/iron-collapse.js';
+    import '@polymer/iron-icons/iron-icons.js';
+    import '@polymer/iron-icons/communication-icons.js';
+    import '@polymer/iron-icons/social-icons.js';
+    import '@polymer/iron-flex-layout/iron-flex-layout.js';
+    import '@polymer/paper-button/paper-button.js';
+    import '@polymer/paper-checkbox/paper-checkbox.js';
+    import '@polymer/paper-icon-button/paper-icon-button.js';
+    import '@polymer/paper-styles/color.js';
+    import '@polymer/paper-styles/typography.js';
+    import '../paper-card.js';
+
+    import {html} from '@polymer/polymer/lib/utils/html-tag.js';
+    const template = html`
+      <custom-style>
+        <style is="custom-style" include="demo-pages-shared-styles">
+          demo-snippet {
+            --demo-snippet-demo: {
+              background: var(--paper-grey-200);
+              padding: 16px;
+            };
+            --demo-snippet-code: {
+              max-height: 300px;
+            }
+          }
+
+          .vertical-section-container {
+            max-width: 400px;
+          }
+
+          paper-card {
+            width: 100%;
+          }
+
+          .horizontal {
+            @apply --layout-horizontal;
+          }
+
+          .flex {
+            @apply --layout-flex;
+          }
+
+          .justified {
+            @apply --layout-justified;
+          }
+
+          .amber {
+            background: var(--paper-amber-900);
+          }
+
+          .lime {
+            background: var(--paper-lime-500);
+          }
+
+          .cyan {
+            background: var(--paper-cyan-500);
+          }
+
+          .dark {
+            background: var(--paper-blue-grey-500);
+          }
+          paper-card.dark, paper-card.amber, paper-card.lime, paper-card.cyan {
+            color: white;
+            --paper-card-header-color: white;
+          }
+
+          paper-checkbox {
+            display: block;
+            margin-bottom: 4px;
+            --paper-checkbox-label-color: white;
+            --paper-checkbox-unchecked-color: white;
+          }
+
+          paper-icon-button {
+            color: var(--paper-grey-600);
+          }
+
+          paper-icon-button.white {
+            color: white !important;
+          }
+        </style>
+      </custom-style>`;
+    document.body.appendChild(template.content);
+  </script>
+</head>
+<body unresolved>
+<h2>Detail</h2>
+<paper-card elevation="1" aria-label="">
+  <div class="card-content" id="container">
+    <iron-icon icon="icons:check-box-outline-blank"></iron-icon><span class="align-icon-text">This checkbox is not required. Variable: checkbox_1</span>
+  </div>
+  <div class="card-actions">
+    <paper-button id="remove-button" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">remove</paper-button>
+    <paper-button id="edit-button" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">edit</paper-button>
+    <paper-button id="add-button" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">add</paper-button>
+  </div>
+</paper-card>
+
+<h2> Main listing</h2>
+<sortable-list style="text-align: center; touch-action: none;">
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="eftouch" data-item-title="EF Touch" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="eftouch" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="eftouch" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="eftouch" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="eftouch" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">EF Touch</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="text_and_number" data-item-title="Text and Number inputs" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="text_and_number" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_and_number" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="text_and_number" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_and_number" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Text and Number inputs</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="checkboxes_item" data-item-title="Checkboxes" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="checkboxes_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="checkboxes_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="checkboxes_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="checkboxes_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Checkboxes</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="text_inputs_item" data-item-title="Text Inputs" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="text_inputs_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="text_inputs_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Text Inputs</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="text_inputs_1" data-item-title="Text Inputs 1" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="text_inputs_1" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_1" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="text_inputs_1" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_1" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Text Inputs 1</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="gps_item" data-item-title="GPS and Location" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="gps_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="gps_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="gps_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="gps_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">GPS and Location</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="text_inputs_2" data-item-title="Text Inputs 2" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="text_inputs_2" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_2" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="text_inputs_2" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="text_inputs_2" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Text Inputs 2</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="timed_grid_item" data-item-title="Timed Grid" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="timed_grid_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="timed_grid_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="timed_grid_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="timed_grid_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Timed Grid</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="radio_buttons_item" data-item-title="Radiobuttons" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="radio_buttons_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="radio_buttons_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="radio_buttons_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="radio_buttons_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Radiobuttons</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="select_lists_item" data-item-title="Select Lists" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="select_lists_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="select_lists_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="select_lists_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="select_lists_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Select Lists</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="date_time_item" data-item-title="Date and Time" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="date_time_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="date_time_item" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="date_time_item" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="date_time_item" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Date and Time</span>
+      </div>
+    </div>
+  </paper-card>
+
+  <paper-card style="cursor: move; margin: 15px; width: 100%;" class="sortable" data-item-id="summary" data-item-title="Summary" elevation="1" aria-label="">
+    <div class="card-content">
+      <div style="text-align: left; ">
+        <paper-button class="item-edit" data-item-id="summary" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="summary" icon="editor:mode-edit" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          edit
+        </paper-button>
+        <paper-button class="item-delete" data-item-id="summary" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
+          <paper-icon-button data-item-id="summary" icon="icons:delete" role="button" tabindex="0" aria-disabled="false"></paper-icon-button>
+          delete
+        </paper-button>
+        <span style="font-size: 30px; position: relative; top: 5px; margin-left: 30px;">Summary</span>
+      </div>
+    </div>
+  </paper-card>
+
+</sortable-list>
+</body>
+</html>
