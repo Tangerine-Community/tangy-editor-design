@@ -4,3 +4,4 @@ node_modules
 *.d.ts
 *.tgz
 .idea
+.idea/workspace.xml
